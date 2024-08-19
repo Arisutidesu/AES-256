@@ -1,0 +1,79 @@
+body {
+  justify-content: center;
+  flex-direction: column; 
+  border: 3px solid #272727;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-sidebar {
+  border: 3px solid #272727;
+  background-color: #f0f0f0;
+  padding: 10px;
+  min-width: 125px;
+  text-align: center;
+}
+
+.back-video {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+main {
+  border: 3px solid #272727;
+  background-color: #fff;
+  padding: 10px;
+  flex: 1;
+}
+
+footer {
+  background-color: #272727;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[name="inputtext"] {
+  border: 3px solid #272727;
+  font-size: 17px;
+  height: 10px;
+  flex: 1;
+  padding: 15px;
+}
+
+input[name="encryption"] {
+  border: 3px solid #272727;
+  font-size: 17px;
+  height: 10px;
+  flex: 1;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+input[type="submit"] {
+  border: 3px solid #272727;
+  font-size: 17px;
+  height: 46px;
+  padding: 0 25px;
+  margin-left: 10px;
+}
